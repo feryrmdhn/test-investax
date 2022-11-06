@@ -1,0 +1,70 @@
+.header {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    .ant-btn {
+        background-color: #ffffff;
+        border: none;
+        margin: 20px 70px;
+        padding: 0 30px;
+        height: 20px;
+        border-right: 1px solid #919090;
+        cursor: pointer;
+        outline: none;
+    }
+    h2 {
+        margin: 20px 0;
+        padding: 0 30px;
+    }
+}
+
+.modal-upload {
+    margin: auto;
+    border: 1px solid #000000;
+    .ant-modal-close {
+        padding: 5px;
+        margin-left: 30.5rem;
+        background: #ffffff;
+        border: none;
+        cursor: pointer;
+        outline: none;
+    }
+    .ant-modal-body {
+        .input_image {
+            margin: 50px 0;
+            padding: 0 175px;
+        }
+    }
+    .ant-dropdown-trigger  {
+        margin: 5px;
+        background: none;
+        border: none;
+    }
+    
+    .ant-modal-title {
+        padding: 0 10px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .ant-modal-footer {
+       .upload {
+        margin-left: 460px;
+        background: none;
+        padding: 5px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+       }
+    }
+}
+
+.ant-dropdown-menu {
+    width: 100px;
+    outline: none;
+    list-style: none;
+    padding: 20px 400px;
+    margin-top: 250px;
+}
+

@@ -1,0 +1,47 @@
+.images {
+    max-width: 1440px;
+    ul {
+        list-style: none;
+        display: grid;
+        grid-template-columns: 13rem 13rem 13rem 13rem 13rem ;
+        grid-gap: 50px;
+        padding: 0 35px;
+        li {
+            img {
+                width: 13rem;
+            }
+            p {
+                font-size: 12px;
+                text-align: center;
+                margin: 5px;
+            }
+            h5 {
+                margin: 5px;
+                text-align: center;
+            }
+            .deleted {
+                border: none;
+                background: #d1d1d1;
+                border-radius: 0.5rem;
+                color: #ffffff;
+                font-size: 12px;
+                margin: 5px 5rem;
+                cursor: pointer;
+            }
+            .deleted:hover {
+                background: #a7a7a7;
+                transition: 0.5s;
+            }
+        }
+    }
+}
+.load {
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    background: none;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}

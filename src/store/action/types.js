@@ -1,0 +1,5 @@
+export const UPLOADED = "SUCCESS_UPLOAD"
+export const FAILED_UPLOAD = "FAILED_UPLOAD"
+
+export const GET_PHOTOS = "GET_PHOTOS"
+export const FAILED_PHOTOS = "FAILED_PHOTOS"
